@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muazzam Ahsan | Contact</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/favicon_io/favicon-16x16.png" type="image/x-icon">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    main div.contact .input-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    main div.contact {
+        padding-left: 8rem;
+        padding-right: 8rem;
+        padding-bottom: 3rem;
+    }
+    
+    main div.contact .input-wrapper-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main div.contact .input-wrapper-2 input {
+        margin-bottom: 2rem;
+        border: 1px solid black;
+        font-size: 0.9rem;
+    }
+    
+    main div.contact input {
+        padding: 0.5rem;
+        border: 1px solid black;
+        font-size: 0.9rem;
+    }
+    
+    main div.contact .input-wrapper-2 textarea {
+        padding: 0.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    main div.contact .input-wrapper-2 textarea:focus,
+    main div.contact input:focus {
+        outline: none;
+    }
+    
+    main div.contact .btn-wrapper {
+        text-align: center;
+    }
+    
+    main div.contact .btn-wrapper .btn-primary {
+        background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        padding: .7rem 2rem;
+        cursor: pointer;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    main div.contact .btn-wrapper .btn-primary:hover {
+        background: #104f55;
+        color: white;
+    }
+    
+    @media only screen and (max-width: 520px) {
+        main div.contact .input-wrapper {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        main div.contact {
+            padding-left: 2rem;
+            padding-right: 3rem;
+            padding-bottom: 2rem;
+        }
+    }
+</style>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="top">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="index.html" class="text-gray">معظّم احسن</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link"><a href="index.html">Home</a></li>
+                    <li class="nav-link"><a href="blog.html">Blog</a></li>
+                    <li class="nav-link"><a href="join.html">Join</a></li>
+                    <li class="nav-link"><a href="contact.html" class="active">Contact</a></li>
+                    <li class="nav-link"><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+                <a href="https://www.facebook.com/muazzam.ahsan"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/muazzam_shah_nadir/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCsjL3XxOVEnOlfQHWw72UWg/"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/snadirmuazzam"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="contact">
+            <h1 data-aos="zoom-in" data-aos-delay="200">Contact Me</h1>
+            <form action="https://formspree.io/maypgvka" method="POST">
+                <div class="input-wrapper" data-aos="fade-down" data-aos-delay="200">
+                    <input type="text" name="name" placeholder="Your Name *" required>
+                    <input type="email" name="email" placeholder="Your Email *" required>
+                </div>
+                <div class="input-wrapper-2" data-aos="fade-in" data-aos-delay="200">
+                    <input type="text" name="subject" placeholder="Subject *" required>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message *" required></textarea>
+                </div>
+                <div class="btn-wrapper" data-aos="fade-up" data-aos-delay="200">
+                    <input type="submit" class="btn btn-primary" value="Send">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about" data-aos="fade-right" data-aos-delay="200">
+                <h2>About Me</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus porro maxime nostrum eum officia consequuntur voluptas, iste repellendus aliquid inventore.
+                </p>
+            </div>
+            <div class="quick-links" data-aos="fade-right" data-aos-delay="200">
+                <h2>Quick Links</h2>
+                <p>
+                    <a href="index.html"><i class="fas fa-arrow-right"></i> Home</a>
+                    <a href="blog.html"><i class="fas fa-arrow-right"></i> Blog</a>
+                    <a href="join.html"><i class="fas fa-arrow-right"></i> Join</a>
+                    <a href="contact.html"><i class="fas fa-arrow-right"></i> Contact</a>
+                    <a href="about.html"><i class="fas fa-arrow-right"></i> About</a>
+                </p>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <a href="https://www.instagram.com/muazzam_shah_nadir/">
+                    <h2>Instagram</h2>
+                    <div class="flex-row">
+                        <img src="./assets/instagram/post1.jpg" alt="Instagram Pic #1">
+                        <img src="./assets/instagram/post2.jpg" alt="Instagram Pic #2">
+                        <img src="./assets/instagram/post3.jpg" alt="Instagram Pic #3">
+                    </div>
+                    <div class="flex-row">
+                        <img src="./assets/instagram/post4.jpg" alt="Instagram Pic #4">
+                        <img src="./assets/instagram/post5.jpg" alt="Instagram Pic #5">
+                        <img src="./assets/instagram/post6.jpg" alt="Instagram Pic #6">
+                    </div>
+                </a>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow Me</h2>
+                <p>
+                    Connect with me!
+                </p>
+                <div>
+                    <a href="https://www.facebook.com/muazzam.ahsan"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/snadirmuazzam"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCsjL3XxOVEnOlfQHWw72UWg/"><i class="fab fa-youtube"></i></a>
+                    <a href="https://www.instagram.com/muazzam_shah_nadir/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            Copyright &copy; 2020 All Rights Reserved | Developed by &nbsp;<a href="https://twitter.com/NotRyyan"><i class="fab fa-twitter"></i>&nbsp;M Ryyan</a>
+        </div>
+        <div class="move-up">
+            <span><a href="#top"><i class="fas fa-arrow-alt-circle-up fa-2x"></i></a></span>
+        </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- JQuery Lib -->
+    <script src="./js/jquery.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Owl Carousel -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
